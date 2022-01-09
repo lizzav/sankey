@@ -19,7 +19,7 @@ export class HttpService {
    * @param http экземпляр класса HttpClient
    */
   public constructor(private http: HttpClient) {
-    this.server = 'http://localhost:3000';
+    this.server = 'https://server-sankey.herokuapp.com';
   }
 
   /**
