@@ -12,7 +12,7 @@
     "lint": "ng lint",
     "lint:fix": "npm run ng lint --fix",
     "lint:scss": "stylelint --fix src/**/*.scss",
-    "json:server": " json-server --watch src/backend/db.json",
+    "json:server": " node serverJson.js",
     "node": "node server.js",
     "heroku-postbuild": "ng build --aot --prod "
   },
