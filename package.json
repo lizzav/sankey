@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm-run-all -p  -r node json:server",
+    "start": "npm-run-all -p  -r node",
     "serve": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -12,7 +12,7 @@
     "lint": "ng lint",
     "lint:fix": "npm run ng lint --fix",
     "lint:scss": "stylelint --fix src/**/*.scss",
-    "json:server": " node serverJson.js",
+    "json:server": " json-server --watch src/backend/db.json",
     "node": "node server.js",
     "heroku-postbuild": "ng build --aot --prod "
   },
