@@ -1,5 +1,4 @@
 //Install express server
-import { sankey } from '/src/backend/db';
 const express = require('express');
 const path = require('path');
 
